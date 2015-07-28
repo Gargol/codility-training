@@ -7,6 +7,6 @@ To run through any given task just look into a file and execute the `solution` f
 or if you find some tests for the problem in the folder run this:
 
 ```bash
-npm install
+npm install tape -g
 tape /path/to/*.spec.js
 ```
