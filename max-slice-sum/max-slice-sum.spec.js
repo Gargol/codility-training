@@ -7,6 +7,13 @@ test('max slice is calculated correctly for sample input', function (t) {
   t.end();
 });
 
+test('max slice is calculated correctly for sample input', function (t) {
+  var testInput = [3, 2, -5, 4, 7, 0];
+  t.equal(maxSlice(testInput), 11, 'the slice of (4, 7) has the largest sum of 11');
+  t.end();
+});
+
+
 test('for an array with one element it should return that element', function (t) {
   var testInput = [-134];
   t.equal(maxSlice(testInput), -134, 'the slice of one element should be that element');
